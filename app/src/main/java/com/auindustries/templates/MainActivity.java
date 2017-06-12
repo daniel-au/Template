@@ -1,8 +1,10 @@
 package com.auindustries.templates;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,5 +17,10 @@ public class MainActivity extends AppCompatActivity {
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         myToolbar.setTitle(R.string.main_activity_title);
         setSupportActionBar(myToolbar);
+    }
+
+    public void goToScrollableTextView(View view) {
+        Intent intent = new Intent(this, ScrollableText.class);
+        startActivity(intent);
     }
 }
