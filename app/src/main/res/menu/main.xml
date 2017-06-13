@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/first_menu_button"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:title="@string/first_menu_button" />
+    <item
+        android:id="@+id/second_menu_button"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        android:title="@string/second_menu_button" />
+
+</menu>

@@ -19,6 +19,9 @@
         <activity
             android:name=".ScrollableText"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MenuActivity"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>

@@ -4,5 +4,13 @@
     <string name="intro_message">This is just a template app that shows different layouts that are possible.
         Select one of the buttons below to view a separate activity of that layout.</string>
     <string name="textview_button">Scrollable TextView</string>
+    <string name="menu_button">Menu and Toasts</string>
+
     <string name="scrollable_activity_title">Scrollable TextView Activity</string>
+
+    <string name="menu_activity_title">Menu Activity</string>
+    <string name="first_menu_button">First</string>
+    <string name="second_menu_button">Second</string>
+    <string name="first_toast">You selected the 1st menu item</string>
+    <string name="second_toast">You selected the 2nd menu item</string>
 </resources>

@@ -31,4 +31,16 @@
         android:onClick="goToScrollableTextView"
         app:layout_constraintTop_toBottomOf="@+id/my_text_view"
         app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/to_menu_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/menu_button"
+        android:onClick="goToMenuActivity"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollable_textview_button" />
+
 </android.support.constraint.ConstraintLayout>
